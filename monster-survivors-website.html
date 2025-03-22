@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster Survivors - Action-Packed Survival Game | Hababys.com</title>
+    <meta name="description" content="Play Monster Survivors, an intense action-packed survival game where you battle endless waves of monsters. Test your skills now!">
+    <link rel="canonical" href="https://hababys.com/monster-survivors">
+    <style>
+        /* Apple-inspired color palette */
+        :root {
+            --primary: #007AFF; /* Apple Blue */
+            --secondary: #5856D6; /* Apple Purple */
+            --dark: #1D1D1F; /* Apple Dark */
+            --light: #F5F5F7; /* Apple Light */
+            --accent: #FF3B30; /* Apple Red */
+            --text: #333333;
+            --background: #FFFFFF;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        body {
+            background-color: var(--light);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--dark);
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: white;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            margin: 1.5rem 0 1rem 0;
+            color: var(--dark);
+            border-bottom: 2px solid var(--primary);
+            padding-bottom: 0.5rem;
+        }
+
+        .tagline {
+            font-size: 1.2rem;
+            margin-bottom: 1.5rem;
+            font-weight: 300;
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        .game-container {
+            background-color: var(--background);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            margin: 2rem 0;
+            position: relative;
+            width: 100%;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+        }
+
+        .game-iframe-container {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+            overflow: hidden;
+        }
+
+        .game-iframe-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .feature-card {
+            background-color: var(--background);
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature-card h3 {
+            color: var(--primary);
+            margin-bottom: 0.8rem;
+            font-size: 1.3rem;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: var(--primary);
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+            margin-top: 1rem;
+        }
+
+        .cta-button:hover {
+            background-color: var(--secondary);
+        }
+
+        .how-to-play {
+            margin: 2rem 0;
+        }
+
+        .how-to-play ol {
+            margin-left: 2rem;
+            margin-top: 1rem;
+        }
+
+        .how-to-play li {
+            margin-bottom: 0.8rem;
+        }
+
+        footer {
+            background-color: var(--dark);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+
+        footer p {
+            margin: 0.5rem 0;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            h2 {
+                font-size: 1.5rem;
+            }
+            
+            .tagline {
+                font-size: 1rem;
+            }
+            
+            .game-container {
+                margin: 1.5rem 0;
+            }
+            
+            .feature-card {
+                padding: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Monster Survivors</h1>
+            <p class="tagline">Battle endless waves of monsters in this action-packed survival game!</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="game-container">
+            <div class="game-iframe-container">
+                <iframe src="https://cloud.onlinegames.io/games/2025/unity/monster-survivors/index-og.html" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <section>
+            <h2>About Monster Survivors</h2>
+            <p>Monster Survivors is an adrenaline-fueled survival game where your skills and strategy will be put to the ultimate test. Face off against endless waves of increasingly difficult monsters, collect power-ups, and survive as long as possible in this addictive action game.</p>
+        </section>
+
+        <section class="features">
+            <div class="feature-card">
+                <h3>Endless Action</h3>
+                <p>Face wave after wave of unique monsters that become progressively more challenging as you advance through the game.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Power-Ups & Upgrades</h3>
+                <p>Collect various power-ups and upgrades that enhance your character's abilities, allowing you to tackle tougher enemies.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Strategic Gameplay</h3>
+                <p>Plan your movements and attacks carefully to maximize survival time and achieve high scores.</p>
+            </div>
+        </section>
+
+        <section class="how-to-play">
+            <h2>How To Play</h2>
+            <ol>
+                <li>Use arrow keys or WASD to move your character around the map</li>
+                <li>Automatically attack nearby enemies as they approach</li>
+                <li>Collect experience gems from defeated monsters to level up</li>
+                <li>Choose new abilities or upgrade existing ones when you level up</li>
+                <li>Survive as long as possible against increasingly difficult waves</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Game Features</h2>
+            <p>Monster Survivors offers a compelling gaming experience with features that will keep you coming back for more:</p>
+            <ul>
+                <li>Multiple character options with unique abilities</li>
+                <li>Diverse monster types with different attack patterns</li>
+                <li>Procedurally generated levels for unique gameplay every time</li>
+                <li>Unlockable content as you progress</li>
+                <li>Competitive leaderboards to showcase your skills</li>
+            </ul>
+            <a href="#" class="cta-button">Play Now!</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Hababys.com. All rights reserved.</p>
+            <p>Monster Survivors is a trademark of Hababys.com</p>
+        </div>
+    </footer>
+</body>
+</html>
