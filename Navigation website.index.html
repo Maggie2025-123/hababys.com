@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Navigation Site</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f2f5;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #4a90e2;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      padding: 2rem;
+    }
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: scale(1.03);
+    }
+    .card a {
+      text-decoration: none;
+      color: #4a90e2;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🌟 My Favorite Links</h1>
+  </header>
+  <div class="container">
+    <div class="card">
+      <a href="https://google.com" target="_blank">Google</a>
+    </div>
+    <div class="card">
+      <a href="https://github.com" target="_blank">GitHub</a>
+    </div>
+    <div class="card">
+      <a href="https://youtube.com" target="_blank">YouTube</a>
+    </div>
+    <div class="card">
+      <a href="https://openai.com" target="_blank">OpenAI</a>
+    </div>
+  </div>
+</body>
+</html>
